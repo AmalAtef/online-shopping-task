@@ -1,0 +1,79 @@
+
+body{
+    background-color: #F5F7F8;
+    color: #171616;
+
+}
+.navbar{
+    background-color: white;
+}
+.navbar-brand{
+    width: 185px;
+    height: 48px;
+    background: #E0E5EB 0% 0% no-repeat padding-box;
+    border: 1px solid #E0E5EB;
+    border-radius: 2px;
+    opacity: 1;
+    text-align: center;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: end;
+}
+.nav-item button{
+    font-weight: bold;
+    margin: auto;
+    color: #171616;
+    width: 100%;
+}   
+ .nav-pills .nav-link {
+    border-radius: unset;
+    border-bottom: 3px solid #E0E5EB;
+}
+
+.nav-pills .nav-link.active {
+    background-color:unset;
+    border-bottom: 3px solid #0d6efd;
+}
+
+.cust-link,.nav-pills .nav-link.active {
+    color: #171616;
+    
+}
+.cust-border{
+    border-bottom: 1px solid #E0E5EB
+}
+.form-container{
+    background-color: white;
+    border: 1px solid #E0E5EB;
+    padding: 2rem;
+}
+
+.text-cust-color{
+    color:#397EF3
+}
+
+.form-check{
+    border: 1px solid #E0E5EB;
+    padding: 0.5rem 3rem;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}
+.form-check span{
+    float: right;
+}
+
+.btn-primary {
+    background-color: #155EBC;
+    border-color: #155EBC;
+    border-radius: 2px;
+    width: 100%;
+}
+.accordion-button::after{
+    display: none
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}

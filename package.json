@@ -17,7 +17,9 @@
     "url": "https://github.com/AmalAtef/online-shopping-task/issues"
   },
   "homepage": "https://github.com/AmalAtef/online-shopping-task#readme",
-  "dependencies": {},
+  "dependencies": {
+    "i18next": "^21.6.10"
+  },
   "devDependencies": {
     "node-sass": "^4.13.0"
   }
